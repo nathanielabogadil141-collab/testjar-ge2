@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "catboy-client",
+  "version": "${version}",
+  "name": "Catboy Client",
+  "description": "Standalone purple-themed client-side Fabric utility and HUD mod.",
+  "authors": ["Catboy Client"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["catboy.client.CatboyClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
